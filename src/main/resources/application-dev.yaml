@@ -1,7 +1,4 @@
 spring:
-  application:
-    name: digital-assets-backend
-
   datasource:
     url: ${DATABASE_URL}
     username: ${DATABASE_USERNAME}
@@ -38,5 +35,5 @@ mybatis:
 
 logging:
   level:
-    com.example.digital_assets.modules..entity
+    com.example.digital_assets.modules..entity: DEBUG
 

@@ -36,7 +36,4 @@ mybatis:
     default-fetch-size: 100
     default-statement-timeout: 30
 
-logging:
-  level:
-    com.example.digital_assets.modules..entity
 

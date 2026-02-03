@@ -1,21 +1,9 @@
 spring:
   application:
-    name: spring-mybatis
-  datasource:
-    url:
-    username:
-    password:
+    name: digital-assets-backend
+  profiles:
+    active: dev
 
-mybatis:
-  mapper-location: classpath:mapper/**/*.xml
-  type-aliases-package: com.example.spring_mybatis.modules.*.entity
-  configuration:
-    map-underscore-to-camel-case: true
-    jdbc-type-for-null: NULL
-    default-fetch-size: 100
-    default-statement-timeout: 30
 
-logging:
-  level:
-    com.example.spring_mybatis.modules..entity
+
 
