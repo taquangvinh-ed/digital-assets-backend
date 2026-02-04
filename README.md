@@ -1,0 +1,10 @@
+GOOGLE_APP_PASSWORD=
+
+EMAIL_ADDRESS=
+
+DATABASE_URL=jdbc:postgresql://localhost:<port>/<database_name>
+DATABASE_USERNAME=
+DATABASE_PASSWORD=
+
+REDIS_HOST=localhost
+REDIS_PORT=
